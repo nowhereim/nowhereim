@@ -1,5 +1,4 @@
-### Technology<p>
-<div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="icon" width="100" height="100" /><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="100" height="100" /><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="100" height="100" /><img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="icon" width="100" height="100" /><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="100" height="100" /><img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="100" height="100" /><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="100" height="100" /><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="100" height="100" /><img src="https://techstack-generator.vercel.app/jest-icon.svg" alt="icon" width="100" height="100" /></div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Quantico&size=80&pause=1000&color=FF9500&center=%EA%B1%B0%EC%A7%93&vCenter=%EA%B1%B0%EC%A7%93&width=1000&height=200&lines=Hello+My+name+is+TaeHwan.;+i+love++you.)](https://git.io/typing-svg)
 
 
 ## 공부중인 기술 스택 📚📚📚
