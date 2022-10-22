@@ -19,7 +19,7 @@
 
 
 # My Blog
-<a href="https://velog.io/@anth" target="_blank"><img src="https://img.shields.io/badge/Tistory-FFFFFF?style=flat&logo=Tistory&logoColor=black"/></a>
+<a href="https://velog.io/@anth" target="_blank"><img src="https://img.shields.io/badge/Velog-20C997?style=flat&logo=Velog&logoColor=white&labelColor=%20C997"/></a>
 
 
 
