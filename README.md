@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 # My Blog
-<a href="https://iceflower.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-FFFFFF?style=flat&logo=Tistory&logoColor=black"/></a>
+<a href="[https://velog.io/@anth]" target="_blank"><img src="https://img.shields.io/badge/Tistory-FFFFFF?style=flat&logo=Tistory&logoColor=black"/></a>
 
 <br/>
 
