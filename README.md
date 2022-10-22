@@ -1,14 +1,10 @@
 ### Hi there 👋
 
-# My Blog
-<a href="[https://velog.io/@anth]" target="_blank"><img src="https://img.shields.io/badge/Tistory-FFFFFF?style=flat&logo=Tistory&logoColor=black"/></a>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nowhereim&theme=great-gatsby&show_icons=true)
 
-<br/>
-
-> 안녕하세요 ! Javascript와 node.js 를 공부중인 **안태환** 입니다.
 
 ## 공부중인 기술 스택 📚📚📚
-* ### ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)![Node](https://img.shields.io/badge/-Nodejs-43853d?style=for-the-badge&logo=Node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)![Node](https://img.shields.io/badge/-Nodejs-43853d?style=for-the-badge&logo=Node.js&logoColor=white)
 <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=Express&logoColor=white"><img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=MongoDB&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white">
 
 
@@ -20,13 +16,15 @@
 * ### <img src="https://img.shields.io/badge/Visual Studio Code-4479A1?style=flat&logo=Visual Studio Code&logoColor=white">
 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nowhereim&theme=great-gatsby&show_icons=true)
 
 
 
 
 
 
+# My Blog
+<a href="[https://velog.io/@anth]" target="_blank"><img src="https://img.shields.io/badge/Tistory-FFFFFF?style=flat&logo=Tistory&logoColor=black"/></a>
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
 
 
 
