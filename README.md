@@ -1,7 +1,7 @@
 
 ```javascript
 
-describe('2024-02-07 TaeHwan🔥', () => {
+describe('2024-02-08 TaeHwan🔥', () => {
 let growthRate = 0;
 
 const stacks = {
