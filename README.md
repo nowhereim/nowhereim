@@ -2,41 +2,53 @@
 ```javascript
 
 describe('2024-06-16 TaeHwan🔥', () => {
-  let growthRate = 0;
+  let app: INestApplication;
 
-  const stacks = {
-    Language: ["Javascript", "Typescript"],
-    Nodejs  : ["Express.js", "Nest.js"],
-    DB      : ["MySQL", "mongoDB", "redis", "Sequelize", "mongoose", "postgrepSQL", "TypeORM"],
-    collaborationTools: ["github", "notion", "slack" , "figma"],
-    cloud   : ["AWS"],
+  const expectedData = {
+    stacks: {
+      Language: ['Javascript', 'Typescript', 'Java'],
+      Nodejs: ['Express.js', 'Nest.js'],
+      DB: ['MySQL', 'mongoDB', 'redis', 'postgreSQL', 'mariaDB'],
+      ORM: ['Sequelize', 'TypeORM', 'mongoose'],
+      collaborationTools: ['github', 'notion', 'slack', 'figma'],
+      cloud: ['AWS'],
+    },
+    studying: {
+      Concepts: ['Clean Architecture'],
+      AdvancedTopics: ['Microservices', 'DDD', 'SOLID'],
+      Methodologies: ['TDD', 'DevOps'],
+    },
+    interested: [
+      'Large-scale Service Architecture',
+      'Agile',
+      'Performance Improvement',
+      'Refactoring',
+    ],
   };
 
-  const studying = {
-    Concepts: ["Test Code", "Clean Code"],
-    AdvancedTopics: ["JavaScript Deep Dive", "TypeScript Deep Dive", "Nest.js", "GraphQL"],
-  };
+  beforeEach(async () => {
+    const moduleFixture: TestingModule = await Test.createTestingModule({
+      controllers: [AppController],
+    }).compile();
 
-  const interested = ["Large-scale Service Architecture", "Agile", "Pipeline", "Performance Improvement"];
-
-  const checkCondition = () => {
-    return stacks && studying && interested;
-  }
-
-  it('should grow successfully', () => {
-    if (checkCondition()) {
-      growthRate += 1;
-    }
-
-    expect(growthRate).toBeGreaterThan(0);
+    app = moduleFixture.createNestApplication();
+    await app.init();
   });
 
-  it('Always Essential Elements', () => {
-    expect(stacks).toBeTruthy();
-    expect(studying).toBeTruthy();
-    expect(interested).toBeTruthy();
+  afterAll(async () => {
+    await app.close();
+  });
+
+  it('should return correct data', async () => {
+    const response = await request(app.getHttpServer()).get(
+      '/antaehwan/stacks',
+    );
+
+    expect(response.status).toBe(200);
+    expect(response.body).toEqual(expectedData);
   });
 });
+
 
 
 
