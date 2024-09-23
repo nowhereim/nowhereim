@@ -1,6 +1,6 @@
 ```javascript
 
-describe('2024-09-19 TaeHwan🔥', () => {
+describe('TaeHwan🔥', () => {
   let app: INestApplication;
 
   const expectedData = {
